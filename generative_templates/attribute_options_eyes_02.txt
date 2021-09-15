@@ -1,0 +1,18 @@
+      <g
+         id="eyes02"
+         style="display:inline">
+        <ellipse
+           style="display:inline;fill:#d40000;fill-rule:evenodd;stroke-width:0.264583"
+           id="ellipse927"
+           cx="43.75547"
+           cy="30.327862"
+           rx="3.1088541"
+           ry="2.9765625" />
+        <ellipse
+           style="display:inline;fill:#d40000;fill-rule:evenodd;stroke-width:0.264583"
+           id="ellipse1011"
+           cx="31.84922"
+           cy="30.592445"
+           rx="3.1088541"
+           ry="2.9765625" />
+      </g>

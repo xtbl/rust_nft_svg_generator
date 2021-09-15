@@ -1,0 +1,8 @@
+      <g
+         id="mouth01"
+         style="display:inline">
+        <path
+           style="display:inline;fill:#ffaaaa;stroke:#000000;stroke-width:0.181967px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 27.339284,41.642259 11.261873,7.460764 12.349226,-7.993676 z"
+           id="path190" />
+      </g>

@@ -1,0 +1,11 @@
+      <g
+         id="mouth02"
+         style="display:inline">
+        <ellipse
+           style="fill:#c83737;stroke-width:0.264583"
+           id="path1312"
+           cx="38.430729"
+           cy="41.142708"
+           rx="9.7234373"
+           ry="2.778125" />
+      </g>

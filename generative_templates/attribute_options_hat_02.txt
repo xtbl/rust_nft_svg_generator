@@ -1,0 +1,18 @@
+      <g
+         id="hat02"
+         style="display:inline">
+        <rect
+           style="fill:#ffb380;stroke-width:0.264583"
+           id="rect1686"
+           width="37.570831"
+           height="5.6885414"
+           x="20.240625"
+           y="14.948958" />
+        <rect
+           style="fill:#ffb380;stroke-width:0.282607"
+           id="rect1732"
+           width="14.791057"
+           height="7.1437497"
+           x="31.114151"
+           y="9.5249996" />
+      </g>
