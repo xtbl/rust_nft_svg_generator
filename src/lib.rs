@@ -29,7 +29,7 @@ impl ItemGenerator {
         }
     }
 
-    pub fn generate_file(&self) {
+    pub fn generate_file(&self, file_name: &str) {
         // read file
         let mut file_contents = fs::read_to_string("generative_templates/generative_template_01.svg").expect("Error reading file");
         println!("-------- filecontents {}", file_contents);
@@ -56,7 +56,7 @@ impl ItemGenerator {
         // TODO:
         // set to generate n new files instead of hardcoded name
 
-        let path = Path::new("generated_07.svg");
+        let path = Path::new(file_name);
         let display = path.display();
 
         let mut file = match File::create(&path) {
@@ -70,10 +70,27 @@ impl ItemGenerator {
         }
 
     }
+
+    pub fn generate_files(&mut self, number_of_files: u32) {
+        let file_names = String::from("new_gen_file_");
+        for n in 1..=number_of_files {
+            self.set_all_attributes_to_random();
+            let name = format!("{}{}.svg", file_names, n);
+            self.generate_file(&name)
+        }
+    }
+
+    pub fn set_all_attributes_to_random(&mut self) -> &mut ItemGenerator {
+        // loop through AttributeOptions and select a new attribute
+        for attr in &mut self.attributes {
+            attr.set_random_attribute();
+        }
+        self
+    }
 }
 
 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct AttributeOptions {
     pub name: String,
     pub attribute_options: Vec<String>,

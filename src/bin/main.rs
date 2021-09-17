@@ -39,7 +39,10 @@ fn main() {
     new_item_with_options = new_item_with_options.set_attribute_options(attr_options_03);
 
     new_item_with_options.print_content();
-    new_item_with_options.generate_file();
+    // new_item_with_options.generate_file("generated_new_file_01.svg");
+
+
+    new_item_with_options.generate_files(3);
 
 
 }
